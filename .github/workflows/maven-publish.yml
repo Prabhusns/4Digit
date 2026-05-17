@@ -12,5 +12,5 @@ jobs:
     - name: echo
       run: echo Hello world! 
     - name: Display the path
-      shell: cmd
-      run: echo %PATH%
+      shell: bash
+      run: echo $PATH
